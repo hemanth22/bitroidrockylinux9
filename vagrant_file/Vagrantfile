@@ -83,10 +83,10 @@ Vagrant.configure("2") do |config|
     echo "[TASK 1] Update packages"
     sudo dnf -y update
     #dnf distro-sync -y
-    yum install -y kernel-headers
-    yum install -y gcc make perl bzip2 elfutils-libelf-devel wget patch libgomp glibc-headers glibc-devel
-    yum install -y kernel-devel
-    yum update -y
+    dnf install -y kernel-headers
+    dnf install -y gcc make perl bzip2 elfutils-libelf-devel wget patch libgomp glibc-headers glibc-devel
+    dnf install -y kernel-devel
+    dnf update -y
     echo "[TASK 2] Verify packages"
     rpm -q kernel-devel kernel-headers gcc make perl bzip2 elfutils-libelf-devel wget binutils patch libgomp glibc-headers glibc-devel
   SHELL
