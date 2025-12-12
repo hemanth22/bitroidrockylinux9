@@ -3,6 +3,6 @@ Customized rockylinux customization
 
 |Component|Version|
 |---|---|
-|Vagrant|2.4.6|
-|Oracle VirtualBox|7.1.10 r169112|
-|Guest Additions|7.1.10|
+|Vagrant|2.4.9|
+|Oracle VirtualBox|7.2.4|
+|Guest Additions|7.2.4|
